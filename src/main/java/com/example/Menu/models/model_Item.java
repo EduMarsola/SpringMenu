@@ -9,7 +9,8 @@ public abstract class model_Item {
             Statement st = cn.createStatement();
             ResultSet reply = st.executeQuery("Select * from Item;");
             while(reply.next()) {
-                System.out.println(reply.getInt("id"));
+                System.out.println(reply.getString("ItemName"));
+                System.out.println(reply.getInt("ItemQt"));
             }
         }catch(SQLException e){
             System.out.println(e.toString());
