@@ -10,6 +10,6 @@ public class Item {
     }
 
     public String GetData(){
-       return (this.name + this.id.toString());
+       return ("{\"name\":\"" + this.name + "\", \"id\":" + this.id.toString() + "\"}");
     }
 }

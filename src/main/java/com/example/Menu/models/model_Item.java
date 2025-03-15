@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public abstract class model_Item {
     public static String GetItemsData(){
-        String response = "";
+        StringBuilder response = new StringBuilder("{\n    ");
         ArrayList<Item> foodList = new ArrayList<Item>();
         try{
             Connection cn = DriverManager.getConnection(
@@ -23,10 +23,13 @@ public abstract class model_Item {
             throw new RuntimeException(e);
         }
         for(int i=0; i<foodList.size(); i++){
-            response += "{" + foodList.get(i).GetData() + "}";
+            response.append(foodList.get(i).GetData());
+            if(i<foodList.size() - 1){
+                response.append(", ");
+            }
         }
 
-        return response;
+        return response.append("\n}").toString();
     }
 
     public static ArrayList<Item> getListItem(){
