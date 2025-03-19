@@ -1,0 +1,176 @@
+.frame-2,
+.frame-2 * {
+  box-sizing: border-box;
+}
+.frame-2 {
+  background: #ffffff;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  width: 1105px;
+  height: 687px;
+  position: absolute;
+  left: 407px;
+  top: 196px;
+}
+.login {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 412px;
+  top: 131px;
+}
+.rectangle-5 {
+  background: #fbfafa;
+  width: 811px;
+  height: 100px;
+  position: absolute;
+  left: 661px;
+  top: 233px;
+}
+.rectangle-6 {
+  background: #fbfafa;
+  width: 811px;
+  height: 100px;
+  position: absolute;
+  left: 661px;
+  top: 364px;
+}
+.email {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 454px;
+  top: 384px;
+}
+.rectangle-7 {
+  background: #fbfafa;
+  width: 811px;
+  height: 100px;
+  position: absolute;
+  left: 661px;
+  top: 497px;
+}
+.senha {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 454px;
+  top: 517px;
+}
+.rectangle-8 {
+  background: #d6ffb1;
+  width: 237px;
+  height: 100px;
+  position: absolute;
+  left: 1235px;
+  top: 716px;
+}
+.rectangle-9 {
+  background: #ffb4b1;
+  width: 237px;
+  height: 100px;
+  position: absolute;
+  left: 916px;
+  top: 716px;
+}
+.cancelar {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 960px;
+  top: 742px;
+}
+.cadastrar {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 1276px;
+  top: 742px;
+}
+.name {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 454px;
+  top: 253px;
+}
+.name-holder {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 661px;
+  top: 261px;
+  
+}
+.email-holder {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 662px;
+  top: 392px;
+}
+.password-holder {
+  color: #000000;
+  text-align: left;
+  font-family: "PtSerif-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 662px;
+  top: 523px;
+}
+.name-click {
+  background: rgba(251, 250, 250, 0);
+  width: 811px;
+  height: 100px;
+  position: absolute;
+  left: 661px;
+  top: 233px;
+  cursor: pointer;
+}
+.email-click {
+  background: rgba(251, 250, 250, 0);
+  width: 811px;
+  height: 100px;
+  position: absolute;
+  left: 661px;
+  top: 364px;
+  cursor: pointer;
+}
+.password-click {
+  background: rgba(251, 250, 250, 0);
+  width: 811px;
+  height: 100px;
+  position: absolute;
+  left: 661px;
+  top: 497px;
+  cursor: pointer;
+}

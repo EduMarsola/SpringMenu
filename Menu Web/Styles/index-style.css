@@ -1,0 +1,527 @@
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+.frame-1 {
+  background: #fcdbdb;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.search-group {
+  position: absolute;
+  inset: 0;
+}
+.search-box {
+  background: #dfbdbd;
+  width: 884px;
+  height: 159px;
+  position: absolute;
+  left: 47px;
+  top: 37px;
+}
+.search-text {
+  color: #383535;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 91.51px;
+  top: 91px;
+  width: 249.75px;
+  height: 51px;
+}
+.rectangle-1 {
+  background: #f6f6dd;
+  width: 1807px;
+  height: 610px;
+  position: absolute;
+  left: 56px;
+  top: 280px;
+}
+.rectangle-2 {
+  background: rgba(255, 0, 0, 0.58);
+  width: 270px;
+  height: 61px;
+  position: absolute;
+  left: 69px;
+  top: 296px;
+}
+.destaques {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 94.17px;
+  top: 297px;
+  width: 245.16px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.shop-op {
+  background: #d4d0d0;
+  width: 388px;
+  height: 484px;
+  position: absolute;
+  left: 69px;
+  top: 381px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.shop-image-holder {
+  background: #d9d9d9;
+  width: 388px;
+  height: 177px;
+  position: absolute;
+  left: 69px;
+  top: 381px;
+}
+.shop-image {
+  background: #ffffff;
+  width: 366px;
+  height: 162px;
+  position: absolute;
+  left: 80px;
+  top: 388px;
+}
+.shop-name-holder {
+  background: rgba(246, 168, 168, 0.55);
+  width: 366px;
+  height: 41px;
+  position: absolute;
+  left: 80px;
+  top: 499px;
+}
+.shop-name {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 126px;
+  top: 502px;
+}
+.shop-tipe {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 114px;
+  top: 568px;
+}
+.nota-x-x {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 808px;
+}
+.ellipse-1 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 80px;
+  top: 573px;
+}
+.ellipse-2 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 80px;
+  top: 607px;
+}
+.ofertas-e-novidades {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 114px;
+  top: 602px;
+  width: 327px;
+}
+.description {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 120px;
+  top: 636px;
+  width: 265px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.shop-op2 {
+  background: #d4d0d0;
+  width: 388px;
+  height: 484px;
+  position: absolute;
+  left: 497px;
+  top: 381px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.shop-image-holder2 {
+  background: #d9d9d9;
+  width: 388px;
+  height: 177px;
+  position: absolute;
+  left: 497px;
+  top: 381px;
+}
+.shop-image2 {
+  background: #ffffff;
+  width: 366px;
+  height: 162px;
+  position: absolute;
+  left: 508px;
+  top: 388px;
+}
+.shop-name-holder2 {
+  background: rgba(246, 168, 168, 0.55);
+  width: 366px;
+  height: 41px;
+  position: absolute;
+  left: 508px;
+  top: 499px;
+}
+.shop-name2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 554px;
+  top: 502px;
+}
+.shop-tipe2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 542px;
+  top: 568px;
+}
+.nota-x-x2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 808px;
+}
+.ellipse-12 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 508px;
+  top: 573px;
+}
+.ellipse-22 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 508px;
+  top: 607px;
+}
+.ofertas-e-novidades2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 542px;
+  top: 602px;
+  width: 327px;
+}
+.description2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 548px;
+  top: 636px;
+  width: 265px;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.shop-op3 {
+  background: #d4d0d0;
+  width: 388px;
+  height: 484px;
+  position: absolute;
+  left: 922px;
+  top: 381px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.shop-image-holder3 {
+  background: #d9d9d9;
+  width: 388px;
+  height: 177px;
+  position: absolute;
+  left: 922px;
+  top: 381px;
+}
+.shop-image3 {
+  background: #ffffff;
+  width: 366px;
+  height: 162px;
+  position: absolute;
+  left: 933px;
+  top: 388px;
+}
+.shop-name-holder3 {
+  background: rgba(246, 168, 168, 0.55);
+  width: 366px;
+  height: 41px;
+  position: absolute;
+  left: 933px;
+  top: 499px;
+}
+.shop-name3 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 979px;
+  top: 502px;
+}
+.shop-tipe3 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 967px;
+  top: 568px;
+}
+.nota-x-x3 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 933px;
+  top: 808px;
+}
+.ellipse-13 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 933px;
+  top: 573px;
+}
+.ellipse-23 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 933px;
+  top: 607px;
+}
+.ofertas-e-novidades3 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 967px;
+  top: 602px;
+  width: 327px;
+}
+.description3 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 973px;
+  top: 636px;
+  width: 265px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.shop-op4 {
+  background: #d4d0d0;
+  width: 388px;
+  height: 484px;
+  position: absolute;
+  left: 1350px;
+  top: 381px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.shop-image-holder4 {
+  background: #d9d9d9;
+  width: 388px;
+  height: 177px;
+  position: absolute;
+  left: 1350px;
+  top: 381px;
+}
+.shop-image4 {
+  background: #ffffff;
+  width: 366px;
+  height: 162px;
+  position: absolute;
+  left: 1361px;
+  top: 388px;
+}
+.shop-name-holder4 {
+  background: rgba(246, 168, 168, 0.55);
+  width: 366px;
+  height: 41px;
+  position: absolute;
+  left: 1361px;
+  top: 499px;
+}
+.shop-name4 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 1407px;
+  top: 502px;
+}
+.shop-tipe4 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 1395px;
+  top: 568px;
+}
+.nota-x-x4 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 1361px;
+  top: 808px;
+}
+.ellipse-14 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1361px;
+  top: 573px;
+}
+.ellipse-24 {
+  background: #010101;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1361px;
+  top: 607px;
+}
+.ofertas-e-novidades4 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 1395px;
+  top: 602px;
+  width: 327px;
+}
+.description4 {
+  color: #000000;
+  text-align: left;
+  font-family: "IrishGrover-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 1401px;
+  top: 636px;
+  width: 265px;
+}
+.op-1-click {
+  background: rgba(217, 217, 217, 0);
+  width: 388px;
+  height: 484px;
+  position: absolute;
+  left: 69px;
+  top: 381px;
+}
+.shop {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #d9d9d9;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 1668px;
+  top: 45px;
+}
+.shop-imagem {
+  width: 117px;
+  height: 117px;
+  position: absolute;
+  left: 1689px;
+  top: 67px;
+  object-fit: cover;
+  
+}
+.shop-click {
+  background: rgba(217, 217, 217, 0);
+  width: 161px;
+  height: 161px;
+  position: absolute;
+  left: 1668px;
+  top: 45px;
+  cursor: pointer;
+}
