@@ -30,8 +30,22 @@ public abstract class model_Place {
         return response.toString();
     }
 
-    public String getPromoFromSite(String siteName){
+    public static String getPromoFromSite(String siteName){
         return "";
+    }
+
+    public static void setItemFromSite(Item item){
+        try{
+            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/menu", "root", "null");
+            Statement st = con.createStatement();
+            ResultSet reply = st.executeQuery("Select PlaceId from Place where PlaceName= \""+item.GetPlace() + "\";");
+            reply.next();
+            st.execute("insert into Item (ItemName, PlaceId) values ( \" " +
+                    item.GetName() + " \" , " + reply.getString("PlaceId") + ");");
+        }catch (SQLException e){
+            throw new RuntimeException(e);
+        }
+
     }
 
 }

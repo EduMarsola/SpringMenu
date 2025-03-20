@@ -1,15 +1,32 @@
 package com.example.Menu.controllers;
 
 public class Item {
-    private String name;
-    private Integer id;
+    private String itemName;
+    private Integer itemId;
+    private String placeName;
 
     public Item(int id, String name){
-        this.name = name;
-        this.id = id;
+        this.itemName = name;
+        this.itemId = id;
+    }
+    public Item(String name, String placeName){
+        this.itemName = name;
+        this.placeName = placeName;
     }
 
     public String GetData(){
-       return ("{\"name\":\"" + this.name + "\", \"id\":" + this.id.toString() + "\"}");
+       return ("{\"name\":\"" + this.itemName + "\", \"id\":" + this.itemId.toString() + "\"}");
+    }
+
+    public String GetName(){
+        return this.itemName;
+    }
+
+    public String GetPlace(){
+        return this.placeName;
+    }
+
+    public String GetPlaceToSQL(){
+        return "\""+this.placeName+ "\"";
     }
 }
